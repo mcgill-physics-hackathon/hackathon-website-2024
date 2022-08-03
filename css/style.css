@@ -824,6 +824,35 @@ h6 {
   padding-bottom: 1.5em;
 }
 
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  /*border: none;*/
+  border-style: solid;
+  text-align: left;
+  outline: none;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif, Arial, Helvetica;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #eee;
+  overflow: hidden;
+  border-radius: 3px;
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -852,6 +881,7 @@ h6 {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -2202,6 +2232,7 @@ blockquote {
     padding: 0;
   }
 
+
   /* Social */
   #header aside {
     clear: both;
@@ -2277,6 +2308,7 @@ blockquote {
     margin: 0;
     padding: 0;
   }
+
 
   .page-border,
   #scrollUp,
@@ -2442,6 +2474,7 @@ blockquote {
   #team .col-3 {
     padding: 0;
   }
+
 
   #lenovo {
     margin-right: 50px;
