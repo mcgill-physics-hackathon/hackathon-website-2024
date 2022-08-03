@@ -824,6 +824,7 @@ h6 {
   padding-bottom: 1.5em;
 }
 
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -851,6 +852,36 @@ h6 {
   background-color: #eee;
   overflow: hidden;
   border-radius: 3px;
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "item1 item2"
+    "item3 item4";
+  gap: 10px;
+  padding: 10px;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -887,7 +918,7 @@ h6 {
 /*Font Icon sizes*/
 
 .fa-1x {
-  font-size: 15px !important;
+  font-size: 35px !important;
 }
 
 /*Icon Block*/
@@ -2201,6 +2232,7 @@ blockquote {
     padding: 0;
   }
 
+
   /* Social */
   #header aside {
     clear: both;
@@ -2276,6 +2308,7 @@ blockquote {
     margin: 0;
     padding: 0;
   }
+
 
   .page-border,
   #scrollUp,
@@ -2441,6 +2474,7 @@ blockquote {
   #team .col-3 {
     padding: 0;
   }
+
 
   #lenovo {
     margin-right: 50px;
