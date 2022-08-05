@@ -312,12 +312,15 @@ input[type="submit"]:hover {
   color: #000;
 }
 
+/* Tooltip formatting */
+
 .tooltip {
   position: relative;
   display: inline-block;
 }
 
-.tooltip .tooltiptext {
+.tooltip .tooltiptext,
+#JoinButton .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: #456991;

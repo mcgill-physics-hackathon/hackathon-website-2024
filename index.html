@@ -177,12 +177,18 @@
 
                 <p class="section-subtitle">November 5 - 6, 2022</p>
 
-                <a
-                  href="https://gmail.us4.list-manage.com/subscribe?u=4019c59adff249368d5df8384&id=c967e1cbd4"
-                  class="button"
-                  target="_blank"
-                  >JOIN OUR MAILING LIST</a
-                >
+                <h3>Joining Our Mailing List</h3>
+
+                <p class="section-subtitle"></p>
+                <input type="text" id="FirstName" placeholder="First Name" />
+                <input type="text" id="LastName" placeholder="Last Name" />
+                <br />
+                <div class="tooltip">
+                  <a id="JoinButton" class="button"
+                    >JOIN
+                    <span id="JoinButtonTooltip" class="tooltiptext">Invalid Name Fields!</span>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -1240,6 +1246,23 @@
           }
         });
       }
+
+      document.getElementById("JoinButton").onclick = function () {
+        var FName = document.getElementById("FirstName");
+        var LName = document.getElementById("LastName");
+        if (FName.value && LName.value) {
+          document.getElementById("JoinButtonTooltip").style.visibility = "hidden";
+          document.getElementById("JoinButton").href =
+            "mailto:listserv@lists.mcgill.ca?subject=!&body=subscribe PHYSICSHACKATHON " +
+            FName.value +
+            " " +
+            LName.value;
+          document.getElementById("JoinButton").click();
+        } else {
+          document.getElementById("JoinButton").removeAttribute("href");
+          document.getElementById("JoinButtonTooltip").style.visibility = "visible";
+        }
+      };
     </script>
 
     <!-- Include JavaScript resources -->
