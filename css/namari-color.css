@@ -13,15 +13,18 @@
 /* 1. Website Default Styling */
 /*------------------------------------------------------------------------------------------*/
 
+/* 2021 Colors Blue 456991, Orange ad8300*/
+/* 2022 Colors Beige F5EDDC, Grey A2B5BB, Red EB1D36, Light Brown CFD2CF */
+
 body {
   background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(top, #ffffff 14%, #456991 65%, #ad8300 95%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffffff 14%, #456991 65%, #ad8300 95%); /* Chrome10-25,Safari5.1-6 */
+  background: -moz-linear-gradient(top, #a2b5bb 14%, #eb1d36 65%, #a2b5bb 95%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a2b5bb 14%, #eb1d36 65%, #a2b5bb 95%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
-    #ffffff 14%,
-    #456991 65%,
-    #ad8300 95%
+    #a2b5bb 14%,
+    #eb1d36 65%,
+    #a2b5bb 95%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#136bd7',GradientType=0 ); /* IE6-9 */
 }
@@ -60,7 +63,7 @@ a:hover,
 }
 
 #about a {
-  color: #456991;
+  color: #eb1d36;
 }
 #about a:hover {
   color: #000;
@@ -117,7 +120,7 @@ a:hover,
 }
 
 .section-heading h2:after {
-  background: #ffffff;
+  background: black;
   content: "";
   display: block;
   width: 30px;
@@ -126,7 +129,7 @@ a:hover,
 }
 
 #banner .section-heading h2:after {
-  background: #fff !important;
+  background: black !important;
 }
 
 .text-center .section-heading h2:after {
@@ -157,7 +160,8 @@ a:hover,
 /* Banner Background and Text Colors */
 
 #banner {
-  background: url("../images/banner-images/banner-1.jpg") no-repeat center top;
+  background: url("../images/banner-images/Banner1.png") no-repeat;
+  background-position: center top;
   background-size: cover;
 }
 
@@ -197,15 +201,15 @@ body {
   font-size: 50px;
   line-height: 50px;
   font-weight: 800;
-  color: #fff;
-  text-shadow: 2px 2px 2px #1c7fac;
+  color: black;
+  text-shadow: 2px 2px 2px #a2b5bb;
 }
 
 #banner h2 {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 18px;
   font-weight: 500;
-  color: #fff;
+  color: black;
 }
 
 /* Section Title and Subtitle */
@@ -294,14 +298,14 @@ input[type="submit"] {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 14px;
   font-weight: bold;
-  color: #456991;
+  color: #eb1d36;
 }
 
 /* Button Color */
 
 .button,
 input[type="submit"] {
-  border-color: #456991;
+  border-color: #eb1d36;
 }
 
 /* Button Hover Color */
@@ -323,7 +327,7 @@ input[type="submit"]:hover {
 #JoinButton .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #456991;
+  background-color: #eb1d36;
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -347,20 +351,20 @@ input[type="submit"]:hover {
 #banner .button {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 16px;
-  color: #fff;
+  color: #eb1d36;
 }
 
 /* Button Color */
 
 #banner .button {
-  border-color: #fff;
+  border-color: #eb1d36;
 }
 
 /* Button Hover Color */
 
 #banner .button:hover {
-  color: #fff;
-  border-color: #fff;
+  color: black;
+  border-color: black;
 }
 
 /*------------------------------------------------------------------------------------------*/
