@@ -55,7 +55,7 @@ a:hover,
 
 #banner .section-heading:before,
 .testimonial.classic footer:before {
-  background: #fff;
+  background: black;
 }
 
 .pricing-block-content:hover {
@@ -96,8 +96,8 @@ a:hover,
 /* Navigation Active State */
 
 #header.nav-solid .active {
-  color: #476b93;
-  border-color: #476b93;
+  color: #eb1d36;
+  border-color: #eb1d36;
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -161,7 +161,7 @@ a:hover,
 
 #banner {
   background: url("../images/banner-images/Banner1.png") no-repeat;
-  background-position: center top;
+  background-position: center 91px;
   background-size: cover;
 }
 
