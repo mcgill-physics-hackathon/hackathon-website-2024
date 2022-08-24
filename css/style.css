@@ -544,7 +544,7 @@ section {
 }
 
 #header.nav-solid {
-  background: #fff;
+  background: #a2b5bb;
   box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
   position: fixed !important;
   left: 0;
@@ -552,7 +552,7 @@ section {
 
 #header.nav-solid nav a {
   border-bottom: 3px solid;
-  border-color: #fff;
+  border-color: black;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -589,7 +589,7 @@ section {
   display: inline-block;
   width: 38px;
   height: 71px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 22px;
@@ -630,11 +630,11 @@ section {
 }
 
 .nav-solid #nav-trigger span.open:hover {
-  color: #999;
+  color: black;
 }
 
 .nav-solid #nav-trigger span {
-  color: #999;
+  color: black;
   opacity: 1;
 }
 
@@ -824,7 +824,6 @@ h6 {
   padding-bottom: 1.5em;
 }
 
-
 .accordion {
   background-color: #eee;
   color: #444;
@@ -841,7 +840,10 @@ h6 {
   transition: 0.4s;
 }
 
-.active,
+.active {
+  background-color: #fff;
+}
+
 .accordion:hover {
   background-color: #ccc;
 }
@@ -852,6 +854,7 @@ h6 {
   background-color: #eee;
   overflow: hidden;
   border-radius: 3px;
+}
 
 .grid-container {
   display: grid;
@@ -881,7 +884,6 @@ h6 {
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 /*------------------------------------------------------------------------------------------*/
@@ -2232,7 +2234,6 @@ blockquote {
     padding: 0;
   }
 
-
   /* Social */
   #header aside {
     clear: both;
@@ -2308,7 +2309,6 @@ blockquote {
     margin: 0;
     padding: 0;
   }
-
 
   .page-border,
   #scrollUp,
@@ -2474,7 +2474,6 @@ blockquote {
   #team .col-3 {
     padding: 0;
   }
-
 
   #lenovo {
     margin-right: 50px;
