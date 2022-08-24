@@ -77,11 +77,11 @@ a:hover,
 
 #header nav a,
 #header i {
-  color: #fff;
+  color: #333;
 }
 
 #header nav a:hover {
-  color: #333;
+  color: #fff;
 }
 
 /* Navigation Colors when the Navigation is sticky and solid */
@@ -351,13 +351,13 @@ input[type="submit"]:hover {
 #banner .button {
   font-family: "Open Sans", sans-serif, Arial, Helvetica;
   font-size: 16px;
-  color: #eb1d36;
+  color: black;
 }
 
 /* Button Color */
 
 #banner .button {
-  border-color: #eb1d36;
+  border-color: black;
 }
 
 /* Button Hover Color */
@@ -388,7 +388,8 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   #banner {
-    background: url("../images/banner-images/banner-2.jpg") no-repeat center top;
+    background: url("../images/banner-images/Banner2.png") no-repeat;
+    background-position: center -10px;
     background-size: cover;
   }
   #banner h1 {

@@ -630,11 +630,11 @@ section {
 }
 
 .nav-solid #nav-trigger span.open:hover {
-  color: #999;
+  color: black;
 }
 
 .nav-solid #nav-trigger span {
-  color: #999;
+  color: black;
   opacity: 1;
 }
 
@@ -840,7 +840,10 @@ h6 {
   transition: 0.4s;
 }
 
-.active,
+.active {
+  background-color: #fff;
+}
+
 .accordion:hover {
   background-color: #ccc;
 }
