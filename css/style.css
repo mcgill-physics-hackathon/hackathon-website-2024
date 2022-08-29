@@ -573,7 +573,8 @@ section {
   opacity: 0.5;
 }
 
-#header.nav-solid .social-icons a:hover {
+#header.nav-solid .social-icons a:hover,
+.social-icons a:hover {
   opacity: 1;
   color: #e4473c;
 }
@@ -716,7 +717,7 @@ nav#nav-mobile a:hover {
 }
 
 .social-icons a:hover {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .social-icons span {
