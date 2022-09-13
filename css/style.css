@@ -1103,51 +1103,77 @@ blockquote {
 
 /* --------- 6.4 Gallery ---------- */
 
-#gallery img {
-  max-height: 300px;
+#project-gallery a img {
+  width: 100%;
+  height: auto;
 }
 
-#gallery [class*="col-"] {
-  padding: 0;
+#project-gallery [class*="col-"] {
+  margin: auto;
 }
 
-#gallery a {
+#project-gallery {
   display: inline-block;
+  position: relative;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#project-gallery figure {
   position: relative;
   overflow: hidden;
 }
 
-#gallery a:hover img {
-  opacity: 0.15;
-  -moz-backface-visibility: hidden;
-}
-
-#gallery a:before {
-  font-size: 2.2em;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  content: "+";
-  width: 70px;
-  height: 70px;
-  border-radius: 100em;
+#project-gallery figure:before {
   display: block;
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  line-height: 72px;
-  margin: -35px 0 0 -35px;
-  opacity: 0;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  vertical-align: middle;
+  content: "";
+  padding-top: 66.666%;
 }
 
-#gallery a:hover:before {
-  opacity: 1;
-  top: 50%;
-  left: 50%;
+#project-gallery figure img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+#project-gallery figcaption {
+  display: block;
+}
+
+#project-gallery a .entry-body {
+  margin: 0;
+  padding: 0.5em 0.7em;
+}
+
+#project-gallery .entry-body h5 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-bottom: 0.2em;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+#project-gallery .entry-body p.tagline {
+  font-style: italic;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  word-break: normal;
+  line-height: 20px;
+  margin-top: 0px;
+}
+
+#project-gallery a:hover {
+  cursor: pointer;
+  color: black;
 }
 
 /**
