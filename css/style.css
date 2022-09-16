@@ -1120,6 +1120,7 @@ blockquote {
 #gallery div.project-wrapper {
   float: left;
   padding: 8px;
+  margin: auto;
 }
 
 #gallery a {
@@ -1174,12 +1175,31 @@ blockquote {
 
 #gallery .entry-body h5 {
   overflow: hidden;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   position: relative;
   margin-bottom: 0.2em;
   text-align: left;
   font-size: 18px;
   font-weight: bolder;
+}
+
+#gallery .entry-body h6 {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  margin-bottom: 0.2em;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.strokeme {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  padding-left: 2px;
+}
+
+.strokeme-white {
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  padding-left: 2px;
 }
 
 /* #gallery .entry-body h5:after {
@@ -1225,7 +1245,7 @@ blockquote {
 #gallery .entry-body p.tagline {
   font-style: italic;
   overflow: hidden;
-  /* white-space: nowrap; */
+  white-space: nowrap;
   position: relative;
   text-align: left;
   word-break: normal;
