@@ -226,6 +226,12 @@ section {
   position: relative;
 }
 
+#sponsors .row {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 .no-padding-bottom .row,
 .no-padding-bottom div,
 .no-padding-bottom.row {
