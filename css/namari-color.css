@@ -18,13 +18,13 @@
 
 body {
   background: #ffffff; /* Old browsers */
-  background: -moz-linear-gradient(top, #a2b5bb 14%,#F5EDDC 40%, #a2b5bb 95%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #a2b5bb 14%, #F5EDDC 40%, #a2b5bb 95%); /* Chrome10-25,Safari5.1-6 */
+  background: -moz-linear-gradient(top, #a2b5bb 14%, #f5eddc 40%, #a2b5bb 95%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a2b5bb 14%, #f5eddc 40%, #a2b5bb 95%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(
     to bottom,
     #a2b5bb 14%,
-    #F5EDDC 40%,
-    #a2b5bb 80%,
+    #f5eddc 40%,
+    #a2b5bb 80%
   ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#136bd7',GradientType=0 ); /* IE6-9 */
 }
@@ -37,7 +37,7 @@ a,
 }
 
 .email:hover {
-  color: rgb(3, 0, 161);
+  color: #eb1d36;
 }
 
 a:hover,
@@ -401,7 +401,7 @@ input[type="submit"]:hover {
     line-height: 40px;
   }
   #banner-content.row {
-    padding-top: 300px !important;
+    padding-top: 515px !important;
   }
   .button {
     margin: 10px 0;
