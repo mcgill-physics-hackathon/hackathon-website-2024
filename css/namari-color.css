@@ -40,6 +40,10 @@ a,
   color: #eb1d36;
 }
 
+.document:hover {
+  color: #eb1d36;
+}
+
 a:hover,
 #header.nav-solid nav a:hover {
   color: #ffffff;
