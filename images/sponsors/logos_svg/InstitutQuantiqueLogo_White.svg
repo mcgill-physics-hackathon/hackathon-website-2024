@@ -6,27 +6,27 @@
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
-   id="svg385"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   id="svg1099"
    sodipodi:docname="InstitutQuantiqueLogo_White.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview387"
-     pagecolor="#ffffff"
+     id="namedview1101"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="true"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.70822811"
-     inkscape:cx="668.5699"
-     inkscape:cy="561.25984"
+     inkscape:zoom="1.9077568"
+     inkscape:cx="397.0632"
+     inkscape:cy="561.13023"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="1591"
@@ -34,14 +34,14 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs382" />
+     id="defs1096" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <image
-       width="230.80487"
-       height="115.35833"
+       width="461.60974"
+       height="230.71666"
        preserveAspectRatio="none"
        style="image-rendering:optimizeQuality"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACjkAAAUcCAYAAABr7mAjAAAcynpUWHRSYXcgcHJvZmlsZSB0eXBl
@@ -2277,8 +2277,8 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAABQVf8XywYoSZmWwccAAAAASUVORK5CYII=
 "
-       id="image477"
-       x="-9.3043184"
-       y="83.162346" />
+       id="image1257"
+       x="-148.14671"
+       y="41.359325" />
   </g>
 </svg>

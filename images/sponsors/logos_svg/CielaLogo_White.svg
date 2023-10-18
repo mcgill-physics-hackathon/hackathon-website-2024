@@ -6,27 +6,27 @@
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
-   id="svg177"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   id="svg46"
    sodipodi:docname="CielaLogo_White.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview179"
-     pagecolor="#ffffff"
+     id="namedview48"
+     pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pagecheckerboard="true"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.70822811"
-     inkscape:cx="397.47081"
-     inkscape:cy="561.25984"
+     inkscape:zoom="3.5690056"
+     inkscape:cx="621.8819"
+     inkscape:cy="505.60301"
      inkscape:window-width="1920"
      inkscape:window-height="1013"
      inkscape:window-x="1591"
@@ -34,14 +34,34 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs174" />
+     id="defs43" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <path
+       style="fill:#000000;stroke-width:0.0846667"
+       id="path171"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path367"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path347"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path309"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path289"
+       d="" />
     <image
-       width="461.60971"
-       height="230.89305"
+       width="923.21942"
+       height="461.7861"
        preserveAspectRatio="none"
        style="image-rendering:optimizeQuality"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAACjkAAAUdCAYAAACgsrOGAAAMbHpUWHRSYXcgcHJvZmlsZSB0eXBl
@@ -1031,8 +1051,60 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAFPUvxtYpx9T8AAAAASUVORK5CYII=
 "
-       id="image269"
-       x="-131.43124"
-       y="28.383656" />
+       id="image475"
+       x="-304.52057"
+       y="-108.27603" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path775"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path755"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path735"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path697"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path677"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path657"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path619"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path579"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path559"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path539"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path519"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path499"
+       d="" />
+    <path
+       style="fill:#000000;stroke-width:0.352778"
+       id="path479"
+       d="" />
   </g>
 </svg>
